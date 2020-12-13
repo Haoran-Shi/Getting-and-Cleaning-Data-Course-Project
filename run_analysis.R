@@ -2,9 +2,9 @@ library(tidyverse)
 
 # import data
 # data import from "subject_test.txt", "X_test.txt", "y_test.txt", "subject_train.txt", "X_train.txt",
-# "y_train.txt".
+# "y_train.txt", "features.txt", and "activity_labels.txt"
 # The resulting dataframe names are supposed to be subjecttest, xtest, ytest, subjecttrain, xtrain, and
-# ytrain, respsectively.
+# ytrain, features, and activitylabel respsectively.
 source("data import.R")
 
 # merge the training and the test sets to create one data set
